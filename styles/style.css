@@ -1,0 +1,119 @@
+/* Importing Outer Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'); */
+
+/* Variables Start */
+:root {
+	--primary-font: 'Poppins', sans-serif;
+	--main-background-color: rgba(255, 255, 255, 1);
+	--font-color: rgba(58, 58, 58, 1);
+}
+
+/* Variables End */
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* Global Design Start */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: var(--primary-font);
+	color: var(--font-color);
+	background-color: var(--main-background-color);
+	margin-right: 120px;
+	margin-left: 120px;
+}
+
+.half-width {
+	width: 50%;
+}
+/* Global Design End */
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* Header Section Style Start */
+#heading #nav-bar {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#nav-bar #menu-bar {
+	display: flex;
+	justify-content: space-around;
+	column-gap: 34px;
+	margin-right: 20px;
+}
+
+#nav-bar #menu-bar a {
+	text-decoration: none;
+	color: var(--font-color);
+}
+
+/* Header Section Style End */
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* Main Section Start */
+/* ---------------------------------------------------------------------------------------------------- */
+/* Introduction Section Start */
+#introduction-container {
+	display: flex;
+	align-items: center;
+	margin-top: 80px;
+}
+#introduction-info #title {
+	font-size: 52px;
+	line-height: 70px;
+}
+#introduction-info p {
+	margin-top: 16px;
+}
+#introduction-info #prebook {
+	border-radius: 41px;
+}
+.btn {
+	align-items: center;
+	background-color: rgba(224, 44, 109, 1);
+	color: white;
+	border: 1px solid transparent;
+	padding: 10px 24px;
+	margin-top: 20px;
+}
+#prebook .fa-arrow-right {
+	margin-left: 8px;
+}
+
+#information-image {
+	width: 40%;
+	margin-left: 6%;
+	background-image: url("../media/images/Circle-design.svg");
+	background-repeat: no-repeat;
+}
+
+#online-shops {
+	width: 100%;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid rgba(188, 181, 181, 0.521);
+	border-bottom: 1px solid rgba(188, 181, 181, 0.521);
+}
+#online-shops .shop {
+	padding: 36px 0;
+}
+/* Introduction Section End */
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Main Section End */

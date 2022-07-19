@@ -101,6 +101,11 @@ body {
 	background-repeat: no-repeat;
 }
 
+#information-image img {
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
 #online-shops {
 	width: 100%;
 	margin-top: 100px;
@@ -110,10 +115,16 @@ body {
 	border-bottom: 1px solid rgba(188, 181, 181, 0.521);
 }
 #online-shops .shop {
-	padding: 36px 0;
+	padding: 30px 0;
 }
 /* Introduction Section End */
 /* ---------------------------------------------------------------------------------------------------- */
-
+/* Popular Collection Section Start */
+#popular-collection #section-title {
+	/* text-decoration: none;
+	color: var(--font-color); */
+	text-align: center;
+}
+/* Popular Collection Section End */
 /* ---------------------------------------------------------------------------------------------------- */
 /* Main Section End */
